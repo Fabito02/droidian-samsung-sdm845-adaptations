@@ -11,6 +11,9 @@ Architecture: arm64
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
          adaptation-samsung-star2qltechn-configs (= ${binary:Version}),
+         linux-image-4.9.337-samsung-star2qlte,
+         linux-bootimage-4.9.337-samsung-star2qlte,
+         linux-headers-4.9.337-samsung-star2qlte
 Description: Community adaptation for samsung-star2qltechn - metapackage
 
 Package: adaptation-samsung-star2qltechn-configs

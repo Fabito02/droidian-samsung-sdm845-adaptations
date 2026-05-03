@@ -1,1 +1,1 @@
-# You can add here your custom apt repositories
+deb [arch=arm64 signed-by=/etc/apt/trusted.gpg.d/community-samsung-star2qltechn.gpg] https://fabito02.github.io/droidian-samsung_sdm845-repo stable main

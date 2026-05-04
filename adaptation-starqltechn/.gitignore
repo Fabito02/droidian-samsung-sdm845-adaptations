@@ -1,0 +1,21 @@
+# Debhelper build artifacts
+debian/.debhelper/
+debian/files
+debian/debhelper-build-stamp
+debian/*.log
+debian/*.substvars
+debian/tmp/
+
+# Generated packaging directories
+debian/adaptation-samsung-starqltechn/
+debian/adaptation-samsung-starqltechn-configs/
+*/DEBIAN/
+
+# Final package files
+*.deb
+*.buildinfo
+*.changes
+*.dsc
+*.tar.gz
+*.tar.xz
+*.upload

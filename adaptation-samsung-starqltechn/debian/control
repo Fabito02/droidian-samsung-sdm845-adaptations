@@ -1,19 +1,22 @@
-Source: adaptation-samsung-starqltechn
-Maintainer: Fabito02 <fabianojuniorlimaba2@gmail.com>
+Source: adaptation-droidian-starqltechn
+Maintainer: Bardia Moshiri
 Section: metapackages
 Priority: optional
-Build-Depends: debhelper (>= 10),
-               debhelper-compat (= 13),
+Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/droidian-starqltechn/adaptation-droidian-starqltechn
+Vcs-Git: https://github.com/droidian-starqltechn/adaptation-droidian-starqltechn.git
 
-Package: adaptation-samsung-starqltechn
-Architecture: arm64
+Package: adaptation-droidian-starqltechn
+Architecture: all
 Depends: ${misc:Depends},
          adaptation-hybris-api29-phone,
-         adaptation-samsung-starqltechn-configs (= ${binary:Version})
-Description: Community adaptation for samsung-starqltechn - metapackage
+         adaptation-starqltechn-configs,
+         wlr-randr,
+Description: adapatation-starqltechn-meta
+ starqltechn api29 adaptation metapackage
 
-Package: adaptation-samsung-starqltechn-configs
-Architecture: arm64
+Package: adaptation-starqltechn-configs
+Architecture: all
 Depends: ${misc:Depends},
-Description: Community adaptation for samsung-starqltechn - adaptation configurations
+Description: starqltechn's adaptation configs

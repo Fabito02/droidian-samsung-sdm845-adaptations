@@ -1,0 +1,17 @@
+bca719897b60a3dc431472a2102ba011  lib/systemd/system/audiohal.service
+6a958d64978cd839f2b300691cb550ef  lib/systemd/system/batman.service
+6209dd2ad0c5c753452147dd103d1634  lib/systemd/system/flashlight-perm.service
+7e515ad3373085c712f358abbf7aa758  usr/bin/batman
+1769507494c9345423d711467c473586  usr/bin/get-app-id
+6dea7f5b5d7be7c9aaaa90c682041087  usr/bin/governor
+b7e1112a9e5adfe38c4550fd9d50ffe8  usr/bin/scale-to-fit
+609bb6e12bda2ec2718eef66c1880bd0  usr/lib/adaptation-droidian-crownqltechn/sources.list.d/community-samsung-sdm845.list
+3f8d63f20ec71f6dadae974cb8537617  usr/lib/adaptation-droidian-crownqltechn/trusted.gpg.d/community-samsung-sdm845.gpg
+2de858445a06d874f7d487656b839c90  usr/lib/droid-system-overlay/etc/init/init.disabled.rc
+362d88ef3e3971ceb6a0e70b8699dbc3  usr/lib/droid-vendor-overlay/bin/vndservicemanager
+24ca3a484c5e4e4da954548c220065fe  usr/lib/droidian/device/preferred-hostname
+a808119c0829c9088bbf9bdd73ebc7dd  usr/share/doc/adaptation-crownqltechn-configs/changelog.gz
+9610629090b731cef6d237fdfdb79c85  usr/share/doc/adaptation-crownqltechn-configs/copyright
+7482be95c17c918c0379d04831750da3  usr/share/glib-2.0/schemas/10_disable-suspend.gschema.override
+a18d356f32cfab159a37497da8737a0d  var/lib/batman/config
+d41d8cd98f00b204e9800998ecf8427e  var/lib/bluetooth/board-address

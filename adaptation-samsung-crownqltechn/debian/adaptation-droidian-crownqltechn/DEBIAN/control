@@ -1,0 +1,10 @@
+Package: adaptation-droidian-crownqltechn
+Version: 0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm
+Architecture: all
+Maintainer: Bardia Moshiri
+Installed-Size: 9
+Depends: adaptation-hybris-api29-phone, adaptation-crownqltechn-configs, wlr-randr
+Section: metapackages
+Priority: optional
+Description: adapatation-crownqltechn-meta
+ crownqltechn api29 adaptation metapackage

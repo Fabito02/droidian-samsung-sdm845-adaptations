@@ -2,3 +2,8 @@
 
 %:
 	dh $@
+
+override_dh_installsystemd:
+	dh_installsystemd -padaptation-crownqltechn-configs --name=batman batman.service --no-start
+	dh_installsystemd -padaptation-crownqltechn-configs --name=audiohal audiohal.service --no-start
+	dh_installsystemd -padaptation-crownqltechn-configs --name=flashlight-perm flashlight-perm.service --no-start

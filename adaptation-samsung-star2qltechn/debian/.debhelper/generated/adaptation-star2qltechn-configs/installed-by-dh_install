@@ -1,0 +1,6 @@
+./etc/phosh
+./etc/udev
+./usr/bin
+./usr/lib
+./usr/share
+./var/lib

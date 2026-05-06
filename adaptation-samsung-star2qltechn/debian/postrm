@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+if [ "$1" = "remove" ]; then
+    dpkg-divert --remove --package adaptation-star2qltechn-configs --rename \
+        --divert /usr/bin/usb-tethering.hybris /usr/bin/usb-tethering
+fi

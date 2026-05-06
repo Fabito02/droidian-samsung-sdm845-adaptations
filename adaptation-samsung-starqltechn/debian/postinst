@@ -1,0 +1,10 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    chmod +x /usr/bin/phosh-boot-cleanup.sh
+    systemctl daemon-reload || true
+    systemctl enable phosh-hwc.service || true
+fi
+
+exit 0

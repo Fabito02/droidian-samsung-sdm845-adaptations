@@ -90,7 +90,7 @@ usb_setup_android_usb() {
     write $ANDROID_USB/enable          0
     write $ANDROID_USB/functions       ""
     write $ANDROID_USB/enable          1
-    sleep 0.5 # 0.5 delay to attempt to remove rndis function
+    usleep 500000 # 0.5 delay to attempt to remove rndis function
     write $ANDROID_USB/enable          0
     write $ANDROID_USB/idVendor        $USB_IDVENDOR
     write $ANDROID_USB/idProduct       $USB_IDPRODUCT
@@ -104,7 +104,15 @@ usb_setup_android_usb() {
 # This determines which USB setup method is going to be used
 usb_setup() {
     mount -t configfs none /sys/kernel/config || true
-    usb_setup_configfs $1
+
+    if [ -f /sys/class/android_usb/android0/enable ]; then
+        usb_setup_android_usb "$1"
+    elif [ -d "$GADGET_DIR" ]; then
+        usb_setup_configfs "$1"
+    else
+        echo "No supported USB gadget method found (android_usb or configfs)!"
+        return 1
+    fi
 }
 
 usb_info() {

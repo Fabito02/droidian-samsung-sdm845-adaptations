@@ -1,34 +1,6 @@
-adaptation-droidian-starqltechn (0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm) bookworm; urgency=medium
+adaptation-droidian-starqltechn (0.0.0+git2023032509182327.8c591ea.bookworm+git20230325044338.b1f74e7.bookworm+git20260505190958.c85bf56.master) master; urgency=medium
 
-  * add files
-  * add apt files
-  * fix typo
-  * fix typo
-  * fix typo again again again
-  * add  batman
-  * update batman to upstream
-  * upstream batman
-  * upstream batman
-  * update changelog
-  * upstream batman
-  * upstream batman
-  * upstream batman
-  * remove batman.list
-  * remove batman.list symlink
-  * upstream batman
-  * move phosh.service.d to /etc/systemd/system
-  * update phosh scaling
-  * adapt to starqlte
-  * add board-address for bluebinder not to crash
-  * add phosh scaling configuration
-  * add audiohal service to use audio.hidl_compat.default.so
-  * add flashlight permission systemd service
-  * change the permission of flashlight recursively
-  * upstream batman
-  * rename udev rules
-  * add preferred_hostname
-  * add wlr-randr as a dependency
-  * disable suspend
+  * Initial commit: add adaptation
 
- -- Bardia Moshiri <fakeshell@bardia.tech>  Sat, 25 Mar 2023 00:43:38 -0400
+ -- Fabito02 <fabianojuniorlimaba2@gmail.com>  Tue, 05 May 2026 16:09:58 -0300
 
